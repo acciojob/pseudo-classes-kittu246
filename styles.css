@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+  background-color:rgb(135, 206, 235);
+}
+.dvsn-1:first-child
+{
+	color:white;
+	background-color:black;
+}
+ .dvsn-1:nth-child(2){
+		color:green;
+}
+.dvsn-1:last-child{
+		color:red;
+}
+ul.nth-child(odd){
+	color: white;
+	background-color: grey;
+	
+}
+li{
+	width=50%;
+	padding=10px;
+	
+}
+ul.first_child{
+	font-size:22px;
+}
+ul.last_child{
+	font-size:22px;
+}
+
