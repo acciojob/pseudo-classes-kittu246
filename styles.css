@@ -1,34 +1,45 @@
 /*  your css code here. If applicable */
 *{
 	margin:0px;
-	padding:0px;
-  background-color:rgb(135, 206, 235);
+	padding:0px
 }
-.dvsn-1:first-child
+:root{
+	
+  background-color:rgb(135, 206, 235);
+
+}
+.dvsn-1>p:first-child
 {
 	color:white;
 	background-color:black;
 }
- .dvsn-1:nth-child(2){
+ .dvsn-1>p:nth-child(2){
 		color:green;
 }
-.dvsn-1:last-child{
+.dvsn-1>p:last-child{
 		color:red;
 }
-ul.nth-child(odd){
-	color: white;
-	background-color: grey;
+ul>li:nth-child(odd){
+	
+	background-color: white;
 	
 }
-li{
-	width=50%;
-	padding=10px;
-	
+ul>li{
+	width:50%;
+	padding:10px;
+    background-color: grey;
 }
-ul.first_child{
+ul>first_child,ul>last_child{
+	font-size:22px;
+    background-color: white;
+}
+ul>first_child,ul>last_child{
 	font-size:22px;
 }
-ul.last_child{
-	font-size:22px;
+
+ul>li:nth-child(3){
+	background-color: pink;
 }
+
+
 
