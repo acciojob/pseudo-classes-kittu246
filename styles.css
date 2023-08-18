@@ -40,6 +40,9 @@ ul>first_child,ul>last_child{
 ul>li:nth-child(3){
 	background-color: pink;
 }
+p{
+	margin-bottom:10px;
+}
 
 
 
